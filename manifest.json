@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Instagram",
-  "version": "1.1",
-  "author": "Maciej Muci3k Adach",
+  "version": "1.2",
+  "author": "Muci3k",
   "description": "Instagram umieszczony w sidebarze",
   "sidebar_action": {
     "default_panel": "sidebar.html",
@@ -30,5 +30,15 @@
     "16": "icons/instagram_icon_16.png",
     "48": "icons/instagram_icon_48.png",
     "128": "icons/instagram_icon_128.png"
+  },
+  "addons": {
+    "{abcd1234-1abc-1234-12ab-abcdef123456}": {
+      "updates": [
+        {
+          "version": "1.2",
+          "update_link": "https://github.com/Muci3k/instagramSiDEBar.git"
+        }
+      ]
+    }
   }
 }
